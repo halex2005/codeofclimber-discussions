@@ -1,0 +1,16 @@
+{
+  "name": "@my/eslint-config-common",
+  "version": "1.0.0",
+  "description": "Common eslint code style",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-standard": ">=14",
+    "eslint-plugin-node": ">=11",
+    "eslint-plugin-promise": ">=4",
+    "eslint-plugin-standard": ">=4"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  }
+}

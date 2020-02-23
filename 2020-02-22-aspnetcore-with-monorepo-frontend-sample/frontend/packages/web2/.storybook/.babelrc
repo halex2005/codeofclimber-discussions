@@ -1,0 +1,18 @@
+{
+    "plugins": [
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            },
+            "override-decorators"
+        ],
+        [
+            "@babel/plugin-proposal-class-properties",
+            {
+                "loose": true
+            },
+            "override-class-properties"
+        ]
+    ]
+}

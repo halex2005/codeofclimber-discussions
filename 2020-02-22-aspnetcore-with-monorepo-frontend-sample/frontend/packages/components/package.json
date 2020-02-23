@@ -1,0 +1,45 @@
+{
+  "name": "@my/components",
+  "version": "1.0.0",
+  "description": "Shared components",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "dependencies": {
+    "mobx": "^4.15.4",
+    "mobx-react": "^6.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@my/eslint-config-common": "1.0.0",
+    "@storybook/addon-info": "^5.3.13",
+    "@storybook/preset-typescript": "^1.2.0",
+    "@storybook/react": "^5.3.13",
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.1",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/uuid": "^3.4.7",
+    "@typescript-eslint/eslint-plugin": "^2.19.2",
+    "@typescript-eslint/parser": "^2.19.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.2.0",
+    "eslint-plugin-react": "^7.18.3",
+    "husky": "^4.2.2",
+    "lint-staged": "^10.0.7",
+    "react-docgen-typescript-loader": "^3.6.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "start": "tsc -w",
+    "storybook": "start-storybook",
+    "eslint": "eslint --ext=js,jsx,ts,tsx src/",
+    "eslint:fix": "eslint --ext=js,jsx,ts,tsx --fix --quiet src/"
+  }
+}
