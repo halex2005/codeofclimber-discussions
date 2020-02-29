@@ -25,6 +25,7 @@
     "@typescript-eslint/eslint-plugin": "^2.19.2",
     "@typescript-eslint/parser": "^2.19.2",
     "babel-loader": "^8.0.6",
+    "copyfiles": "^2.2.0",
     "eslint": "^6.8.0",
     "eslint-config-react-app": "^5.2.0",
     "eslint-plugin-react": "^7.18.3",
@@ -36,6 +37,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "postbuild": "copyfiles -u 1 \"src/**/*.module.scss\" \"dist\"",
     "prepare": "yarn build",
     "start": "tsc -w",
     "storybook": "start-storybook",
