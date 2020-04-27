@@ -7,7 +7,7 @@ Frontend is monorepo with two `create-react-app`-based SPA which are using share
 Backend contains ASP.NET Core web applications.
 Frontend parts will be copied to `wwwroot` folder of backend applications on publish with `dotnet publish`.
 
-See the [blog post](TODO:link) for the details.
+See the [blog post](https://codeofclimber.ru/2020/publishing-aspnetcore-app-web-application-with-frontend-monorepo-static-assets/#importing-styles-in-components-package) for the details.
 
 License
 -------
